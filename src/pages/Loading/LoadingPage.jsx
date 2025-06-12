@@ -64,7 +64,7 @@ export default function LoadingPage() {
           </motion.div>
         </Grid>
         <Grid>
-          <Typography variant="h5" color="textSecondary">
+          <Typography variant="h5" textAlign='center' color="textSecondary">
             Preparando sus momentos especiales
           </Typography>
         </Grid>

@@ -14,7 +14,7 @@ export default function Transition() {
     return () => clearTimeout(timer);
   }, []);
 
-  if (loading) {
+  if (loading || true) {
     return (
       <Grow in={true} unmountOnExit>
         <Box>
