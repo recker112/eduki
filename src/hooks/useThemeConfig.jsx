@@ -15,10 +15,10 @@ export default function useThemeConfig() {
     palette: {
       mode: mode,
       primary: {
-        main: '#32A690',
+        main: '#f472b6',
       },
       secondary: {
-        main: '#17736A',
+        main: '#c084fc',
       },
       background: {
         paper: mode === 'light' ? '#fff' : '#243040',

@@ -1,5 +1,6 @@
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import useThemeConfig from "./hooks/useThemeConfig"
+import Transition from "./pages/Transition";
 
 function App() {
   const themeConfig = useThemeConfig();
@@ -13,7 +14,7 @@ function App() {
         })}
         component='main'
       >
-        holi
+        <Transition />
       </Box>
     </ThemeProvider>
   )
