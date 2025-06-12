@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Box, Fade, Grow } from "@mui/material";
 import LoadingPage from "./Loading/LoadingPage";
+import ContentPage from "./Content/ContentPage";
 
 export default function Transition() {
   const [loading, setLoading] = useState(true);
@@ -16,11 +17,7 @@ export default function Transition() {
   if (loading) {
     return (
       <Grow in={true} unmountOnExit>
-        <Box
-          sx={(theme) => ({
-            height: '100vh',
-          })}
-        >
+        <Box>
           <LoadingPage />
         </Box>
       </Grow>
@@ -29,12 +26,8 @@ export default function Transition() {
 
   return (
     <Fade in={true} unmountOnExit>
-      <Box
-        sx={(theme) => ({
-          height: '100vh',
-        })}
-      >
-        <Box>Cargado pa</Box>
+      <Box>
+        <ContentPage />
       </Box>
     </Fade>
   );

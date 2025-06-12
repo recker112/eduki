@@ -52,12 +52,12 @@ export default function LoadingPage() {
             <Typography
               variant="h2"
               fontWeight={800}
-              sx={(theme) => ({
+              sx={{
                 background:
                   "linear-gradient(to right, #f472b6, #fb7185, #c084fc)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-              })}
+              }}
             >
               Cargando...
             </Typography>
