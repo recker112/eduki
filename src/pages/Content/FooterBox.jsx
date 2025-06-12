@@ -21,7 +21,7 @@ export default function FooterBox() {
         </Typography>
         <Box textAlign='center' sx={{ mt: 2 }}>
         <motion.div
-          animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
+          animate={{ scale: [0.9, 1.1, 0.9], opacity: [0.3, 0.5, 0.3] }}
           transition={{ duration: 0.8, repeat: Infinity }}
         >
           <FavoriteIcon sx={{ fontSize: 40 }} />
